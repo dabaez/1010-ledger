@@ -1,0 +1,26 @@
+[package]
+name = "rite-solver"
+version = "0.1.0"
+edition = "2021"
+description = "Opens the Annual Rite's sealed guestbook entries: RSW time-lock puzzles, one squaring after another."
+license = "MIT OR Apache-2.0"
+publish = false
+
+[[bin]]
+name = "rite-solver"
+path = "src/main.rs"
+
+[dependencies]
+rug = { version = "1.30", default-features = false, features = ["integer", "rand", "std"] }
+ureq = "3"
+aes-gcm = "0.11"
+sha2 = "0.11"
+base64 = "0.23"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ctrlc = "3"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

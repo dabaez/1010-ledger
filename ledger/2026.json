@@ -1,0 +1,190 @@
+{
+  "format": "annual-rite-ledger/1",
+  "rules": "RULES.md",
+  "site": "https://1010.b4ez.com",
+  "year": 2026,
+  "window": {
+    "opens_at": "2026-10-09T10:00:00.000Z",
+    "closes_at": "2026-10-11T12:00:00.000Z"
+  },
+  "opened_at": "2026-10-09T10:00:00.000Z",
+  "closed_at": "2026-10-11T12:00:00.000Z",
+  "number": {
+    "decimal": "18022885089664972136",
+    "hex": "0xfa1e267fed2a3568"
+  },
+  "bit": 1,
+  "beacon": {
+    "chain": {
+      "name": "drand quicknet",
+      "hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+      "genesis": 1692803367,
+      "period": 3
+    },
+    "number": {
+      "committed_drand_round": 32912212,
+      "committed_drand_url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/32912212",
+      "source": "drand",
+      "randomness": "fa1e267fed2a35687b4f6e6020697e94d03da4f2cbc1f8b9254388703cd5a08d",
+      "proof": {
+        "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+        "public_key": "83cf0f2896adee7eb8b5f01fcad3912212c437e0073e911fb90022d3e760183c8c4b450b6a0a6c3ac6a5776a2d1064510d1fec758c921cc22b0e17e63aaf4bcb5ed66304de9cf809bd274ca73bab4af5a6e9c76a4bc09e76eae8991ef5ece45a",
+        "scheme": "bls-unchained-g1-rfc9380",
+        "round": 32912212,
+        "signature": "a0917c00f342fd9f0cc32f4b9211210b64c3e62c10508f79c1cfef0581475be020883fef26b36639205265e429f0f083",
+        "randomness": "fa1e267fed2a35687b4f6e6020697e94d03da4f2cbc1f8b9254388703cd5a08d",
+        "relay": "https://api.drand.sh",
+        "url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/32912212",
+        "time": "2026-10-09T10:00:00.000Z",
+        "source_round": 32912212
+      }
+    },
+    "tiebreak": {
+      "committed_drand_round": 32972212,
+      "committed_drand_url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/32972212",
+      "source": "drand",
+      "randomness": "9f795bf9773a3f23d25f47b173439666b77f7fbe9039ea34c6972a405957889c",
+      "proof": {
+        "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+        "public_key": "83cf0f2896adee7eb8b5f01fcad3912212c437e0073e911fb90022d3e760183c8c4b450b6a0a6c3ac6a5776a2d1064510d1fec758c921cc22b0e17e63aaf4bcb5ed66304de9cf809bd274ca73bab4af5a6e9c76a4bc09e76eae8991ef5ece45a",
+        "scheme": "bls-unchained-g1-rfc9380",
+        "round": 32972212,
+        "signature": "a003f98a2cbd81aa9c5d4493ff0fa8efb7d806f8cbd7e7c6eaf8ec4631b4ab82290c87677f37d0ff50ada3b4ab482122",
+        "randomness": "9f795bf9773a3f23d25f47b173439666b77f7fbe9039ea34c6972a405957889c",
+        "relay": "https://api.drand.sh",
+        "url": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/32972212",
+        "time": "2026-10-11T12:00:00.000Z",
+        "source_round": 32972212
+      },
+      "derivation": null
+    }
+  },
+  "tower": {
+    "year": 2026,
+    "number": 1,
+    "state_before": "AAAAAAAAAAAA",
+    "move": "A→B",
+    "state_after": "BAAAAAAAAAAA",
+    "tally": {
+      "A→B": 12,
+      "A→C": 7
+    },
+    "decided_by": "votes",
+    "optimal_remaining": 4094
+  },
+  "seals": {
+    "benchmark": {
+      "cpu": "AMD Ryzen 7 7800X3D",
+      "squaringsPerSecond": 1104905,
+      "tool": "rite-solver bench (rug 1.30 / GMP), 20 s",
+      "date": "2026-10-03"
+    },
+    "t": {
+      "y1": "34868142602589",
+      "y5": "174340713012943",
+      "y50": "1743407130129433",
+      "y1000": "34868142602588650"
+    }
+  },
+  "guestbook": [
+    {
+      "id": 1,
+      "year": 2026,
+      "seal": "y1",
+      "name": "Gamer",
+      "n_hex": "a59105ce2f150488dc79caa038aa39dd452cf66ac9182631ab25ab35c78b8ef6ad0c62ee2f1d99b8376e9c60b4cb701cb93e9d02aa734390522b041c2060add22df7cf1267d14d6a6a2576e5d9a8da1ada856a0f07159cc77afafdae2bf93a0c8634d156b04b4951b63defafa15654305a65320958cd2f0299d9c691a0c6547888806fc6402018d562542623b413eb13282d110fc41b6e8df12fbcbd9d378b9da5e90b7494007ef850ac0162263b83aeea8ea6247cdda5551d968d9dfea9e36673007e0aa533f2ac4c97bbe25c079838f652bd54d9104c01f46978055bf6424fd8a528fd4c2dca47e6ef04f48929ceee1ab71c06ba88caa22f66d9aa8cfffb91",
+      "t": "34868142602589",
+      "iv_b64": "y0cO/DMDvDWJMyBk",
+      "ciphertext_b64": "zUXjIYDoZFpz2nYMP5orQ8sIf6MDn8Y=",
+      "created_at": "2026-10-10T17:56:11.686Z"
+    },
+    {
+      "id": 2,
+      "year": 2026,
+      "seal": "y5",
+      "name": "Baez",
+      "n_hex": "cb27ea634ee714b59b490c520a4792b2d857c7f5010e9ff735a4382e530027a5276bd73a6c6ed36c372d70c08931a4b3fe26c5d309eafb69e7dc5f18da759ce8a3d0cba43a171ab4257fb9456324a305ccedde8ee88ec70528b98d7ec72d58f355806db9410bace25befcaa8646775425cef3e636555c5168c9cddf0a86555c205b5614d11fcc6f7e910324d499c5db2c9db814acd0a1c4dbd63ef671443cc9eae078016bd2df4aadfcf1bc69061ddfb14eda3d8268e8d17ecbecefcc8244e6da7487558ed91d3b20da8f6269ab6adde0781515cf48195530ff1b1851c5879c0bea012e9187fd4abb7f0196ad4fc932ec6933110f98a6e7057523bac849578ef",
+      "t": "174340713012943",
+      "iv_b64": "5R5S0NLEibu9GJr/",
+      "ciphertext_b64": "WyYua9nG6wbeT/O+v/1bgLYWEL+NmngJbRIxu+LoQn7RYs0fwLMwB/ICReJ0G13hVDey5ZLUiMnQqdvZnz9FePWuHP6V40n/16/yskywQjqPnxnDv+ClyeqeeO3YD57vUc6QbaL6IsvYRJcyjGqL/Fm+3GYZ8sDr8ZtjxTa0DliXBt5GIlkZLhprHkszUFxeKq4I7M0CwcBxsA2UtvZl78aDixBijQgI+23YDeAOHMbylhIGfBb1LAvsc+bfbqwrWL38YT1L9LT9yvE0fMjMwDLPMutXS+wvFOxouvMU0ls4yrflN57FDhl5pBO+TbGg6fhAgriAr9jM+9O5QKnvousOwtKasmMroQOpfnc0u47P",
+      "created_at": "2026-10-10T18:18:52.477Z"
+    },
+    {
+      "id": 3,
+      "year": 2026,
+      "seal": "y1",
+      "name": "yo",
+      "n_hex": "d5799a961b0553fbf5f1fef97aaa3574ee64de3b6667d206c7a1f35431c01ed06d128dc648b86b552353b4f8c5cb0723ef507fe563d9daeb7077b3e6ee3c3ca2cfa8fff81ddb5702b4528114bba96f697ad76ff2295f4bac693fcb0676c4a760c271fa801dba59f4fdf57754eb2e9944b55b969b7e7bc543980201cda952353bc2a580b7923e9ce45d34cd771ba9b3eff83226a78b4e53112f866985e49d146a3a59295a0f900ab649d9764959fdc10c6b086574dcf5fcc4902af937b550a4a641b5c9a1a2d33130af87a480c36793ace6022380a4f810bda7118b03a795a8052a4c754f19d6a813bf3cc3982d6ead9e4a2feca6c789e06675da79ba7e354aa1",
+      "t": "34868142602589",
+      "iv_b64": "q5sJnb1wnIPQ43e1",
+      "ciphertext_b64": "VsdmtEq8QFnV1PEiqnjKGB4hiWnppFzF/VQ=",
+      "created_at": "2026-10-10T18:39:09.702Z"
+    },
+    {
+      "id": 4,
+      "year": 2026,
+      "seal": "y1",
+      "name": "catapaz",
+      "n_hex": "c379c518407ecaffdbf2a73c719588d3a32eac4ba69b8fdb69497dc782035e1eb153ce026d4a8682395ca7034bcb4ed59347a3f9012ae2d149ac50795514826b57b4a309c01be5bbfb532c94534c52ae734575fd08333ae7ea20a0b959c7d35724c3760896b2578bd584b8152bb712443319620094b7c596f500108b81a0b486376f70a2a8fc8dd52c2b4001c88d8ae314c3f59336a181dc1ec513b53739d0554dcccf5d3b8c65489e1614349a453fd8679172cb7f0e47e5bebd83900eb21c75b4dc0c9859d8014dce0ad1088aac8caaf1332301b3c4e460e5abf8d85df0fcfdb6140ea7bf8ba4e5b6c18c04cb2578261cdd16db885daa605dd7d875b493bac1",
+      "t": "34868142602589",
+      "iv_b64": "dWYvrMHyA2Ty/6TK",
+      "ciphertext_b64": "awhhcYShiJVmYd9a5+5VIjHelSJnAcrTs/YVXb+OOmPeBQ0ySVYCNrySoUo=",
+      "created_at": "2026-10-10T19:32:30.935Z"
+    },
+    {
+      "id": 5,
+      "year": 2026,
+      "seal": "y1",
+      "name": "vi",
+      "n_hex": "c4c6a72a2a69814436a33d3cc756089808629da70284f193eea972c8142b64e13fe2cd12479f7ce84d578244e74cbff1b3f68d4bf8c3a7876812cb698c7cf276c55db1c806b386be7bceeb16dd88d0fc2dd234b3c02165464733401c1e49d155f654052b3df052d4ca6020de6b602f6441fff81497b8d1ac795dec6864c93774d2ffd2843947cb392a23d72dc31d66a4e760cc2933f05e08bfea97c3a43d17f20f19516d9dcd3f69b230249f8da008875179288a87c882d9d9c74800201cab3a212463610f4102325861352f732e42495c99e956012453aace08cf1e3e38499fd2814cbb1a4b3c6643762ec429127ad4384ea0b2404562d8360ce49643c238cf",
+      "t": "34868142602589",
+      "iv_b64": "zjT2ATdI9ols/RBD",
+      "ciphertext_b64": "DtGV/eDECY1uUIsK8s1BlnHCb3Q8f3w=",
+      "created_at": "2026-10-10T20:16:48.250Z"
+    },
+    {
+      "id": 6,
+      "year": 2026,
+      "seal": "y1",
+      "name": "andy",
+      "n_hex": "c48d846b9320ca9494120256040e665b16f9cb4202a9732fa6d1c7263442a88dfca3530cf3d081e83b2df4863af32682587fa0d5a87cb53b551a414b69489879d5792549cbfc15249b8c9db484d2cff38fbcbbc57869d9129109f35057fc614c083d937e61ff4e18cd24b12a0fd2dd339c0be5b6e8889e8fe4a05502ad33d53480c56d2816e1b6a5d9eca8a0d6f909e0ec0a37b45d3dafbfd11ae6e643212bc098c7349d2e778303134e36f638b6ce54c9a508894189f9172477cc27abb7fd29878deb8f16c3f77667db24d7bc3e3f71f54021103a3541eac77eb4bee2173bcc7fd17f9ba1d3efa54941555b1b34c3a414d9931b36738f453805e40573e07661",
+      "t": "34868142602589",
+      "iv_b64": "fxbIGYyGypFH7Atn",
+      "ciphertext_b64": "k8Ed24cwUxLmTFu0uHarr33PVbDn/DTk5hLB3krTHF37VhPqITtYb2N9BpBA+Q==",
+      "created_at": "2026-10-10T20:34:21.735Z"
+    },
+    {
+      "id": 7,
+      "year": 2026,
+      "seal": "y1",
+      "name": "bmq",
+      "n_hex": "ae802bd87c8d2f6ed01e1bf51daff96ad0fbcb3186437d3174fbee5a614904284308258da0083f556f0b5e11dca221f873ecfe72261947cb59329da39ab871489791dec1c5a4100f713470dd85c887ccc995810f0ddf2804d81aca064d5a6c2209919baa0c5377b0a69f8fe4caf6141e866bfa42ccd57347b14c130533a94a613db43c1229abe2e27675503c1a433ca3abf01ad8777830e2cda2cec6f5cb8b016dd43122286e962e3f8ff61bcc3c699a7e53e8cda4fc40760b7dd38a24e2861350260618c0a2077c5135c7b1d6c7ca222cb22c65f0992be8eeb13d20298c21a10a07064c3b8d89573abb322167d594ebf22926adc66d80bd835f8dd20d013c5f",
+      "t": "34868142602589",
+      "iv_b64": "sB/jKpoVQz80T3z7",
+      "ciphertext_b64": "6SsjWve+DD/my/ejiWkcqCx3OL8Yw+dMeWJ2jVYxseax6Zn7touzgTD7h+P6k0uxWzPFTw85O2gqE1JttmcMUa1jXZj4ROxgEvJtEA4nPni5apUQ0yAP5xq1xXkH8QUrgrFnXb+52l2gKrw01ynxZw==",
+      "created_at": "2026-10-10T20:50:33.345Z"
+    },
+    {
+      "id": 8,
+      "year": 2026,
+      "seal": "y1000",
+      "name": "mitu",
+      "n_hex": "c89bfba8449f2c67f846b54fcf8cb87390f2e42afd828bcc28834bbc05e3ec4cfde6b154456c543b55e7b42f6e04a6535e58d44f59621d3a1c0a1aa434e0b152439682afc7add4462269d6054ed9580e97eaba21b5562de4e4084430d03a4f8dfaa4fb8a39f380bc0c8e16ecfbe272d22948821bfff0a18edb3368b563c884a6e42fa894b33bd8739ab7ec3a7ffd58329351f562f7aca62f64391691244ee3da3e970018372d355d1907cc88faa5bd1e78e4836682827bbf95d92bfd2daf0dd767caff0f94daad7683ebb34e10535d3b4445ad0a28ebcb4a20caf4dc6e5974f0f86e3724c215f015c09186cd44cd0c0a3e3bc8752a196d4cae0aa737020ee6d1",
+      "t": "34868142602588650",
+      "iv_b64": "mbqFxryIOc9aPoht",
+      "ciphertext_b64": "zZ6kELTV6ky7ri4PB9pJX5FYscq7rpvyxkh6MinTHyzdhg==",
+      "created_at": "2026-10-10T21:09:23.725Z"
+    },
+    {
+      "id": 9,
+      "year": 2026,
+      "seal": "y1000",
+      "name": "ralonso",
+      "n_hex": "c908c9db764170fce88b8d62894ab8b61ec03611777805a9233cfb3d11f565789d539ee8e8c9abcd72e4131545ae4845bf4445897c2bd2062aacbf8b53a149e1c0e5559add1e2b9a94dee61c348aa365bacdf443d9c179121eeb3e944b5415a90acfcc4d8fc107c4b80b2b5bbea5d669e51079c931b5536a38b471d3ca21f8b84334a3951ebb13a7eb9a2361029ae01195c0fdad7af679d3226fbd04627efe229a15facb76350566787c12c4630b3d02b5151392b5c0e7f26e0d880408954814b3253fa085060aed4ad4f684774a572617559382a79a62a0d03191262d1c847f6b79829553b377a83718c5957da8922271adf56910f8516cc8ea420d50de72f7",
+      "t": "34868142602588650",
+      "iv_b64": "o14AIqciCzR1MK0s",
+      "ciphertext_b64": "YMkWJJyqB3gmhMmB4aiVQooKzq9nSJZD6fGwhgYqiejOSWy2vOcgdXNVsLDEdQ==",
+      "created_at": "2026-10-11T00:24:47.867Z"
+    }
+  ]
+}
